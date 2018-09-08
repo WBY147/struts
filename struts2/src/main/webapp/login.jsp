@@ -11,9 +11,10 @@
     <title>Title</title>
 </head>
 <body>
-<form action="sayHello" method="post">
-    <input type="text" name="username">
-    <input type="submit" value="submit">
+<form action="login" method="post">
+    <input type="text" name="admin.username">
+    <input type="text" name="admin.password">
+    <input type="submit" value="login">
 </form>
 </body>
 </html>
